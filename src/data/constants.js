@@ -187,7 +187,7 @@ export const experiences = [
       "Formik",
       "Yup",
     ],
-    doc: "https://drive.google.com/file/d/11hORN69VKjhGlvz-8iPZLWJwpWI0CMrr/view?usp=drive_link",
+    // doc: "https://drive.google.com/file/d/11hORN69VKjhGlvz-8iPZLWJwpWI0CMrr/view?usp=drive_link",
   },
   {
     id: 1,
@@ -207,7 +207,7 @@ export const experiences = [
       "React Query",
       "Node Js",
     ],
-    doc: "https://drive.google.com/file/d/1lBx65L7HtSg6LkrEbxcHcWeZKGJSuTkv/view?usp=drive_link",
+    // doc: "https://drive.google.com/file/d/1lBx65L7HtSg6LkrEbxcHcWeZKGJSuTkv/view?usp=drive_link",
   },
   {
     id: 2,
@@ -217,7 +217,7 @@ export const experiences = [
     date: "Aug 2021 - Jan 2022",
     desc: "Worked on the frontend of the web application using HTML, CSS, JavaScript, PHP.",
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"],
-    doc: "https://drive.google.com/file/d/1YQAKNuNCQIaLjpsTDY5lhzaiVpn_gCxI/view?usp=drive_link",
+    // doc: "https://drive.google.com/file/d/1YQAKNuNCQIaLjpsTDY5lhzaiVpn_gCxI/view?usp=drive_link",
   },
 ];
 
