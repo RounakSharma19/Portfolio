@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Rounak Sharma",
+  name: "Rounak Sharrma",
   roles: [
     "Full Stack Developer",
     "Front end Developer",
@@ -270,14 +270,15 @@ export const projects = [
     date: "Jun 2021 - Jul 2021",
     description:
       "A weather app is a digital application designed to provide users with up-to-date and accurate information about current and forecasted weather conditions.",
-    image: "",
-    tags: ["Handlebars", "JavaScript", "CSS"],
+    image:
+      "https://github.com/RounakSharma19/WeatherApp/assets/85124554/d19ecc9a-a5d2-458e-8194-c422f3a72e94",
+    tags: ["Handlebars", "NodeJS", "ExpressJS", "JavaScript", "CSS"],
     category: "web app",
     github: "https://github.com/RounakSharma19/WeatherApp",
     webapp: "https://github.com/RounakSharma19/WeatherApp",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -286,26 +287,20 @@ export const projects = [
   },
 
   {
-    id: 5,
-    title: "Voot Clone",
-    date: "Apr 2021 - May 2021",
+    id: 8,
+    title: "Tic-tac-toe game",
+    date: "May 2021 - Jun 2021",
     description:
-      " A Voot clone made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and navigate to those particular page. It has a upload component were you can upload videos. It has a search bar where users can search for a particular task.",
+      "This project offers a fun and engaging implementation of the timeless Tic-Tac-Toe game, where two players compete to achieve a winning combination on a 3x3 grid",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: [
-      "React Js",
-      "Local Storage",
-      "Firebase",
-      "Moment",
-      "react-responsive-carousel",
-    ],
+      "https://github.com/RounakSharma19/Tic-tac-toe/assets/85124554/a6815074-6265-476a-8d6c-b0bb92975f37",
+    tags: ["React Js", "JavaScript", "Bootstrap", "Reactstrap", "CSS", "HTML"],
     category: "web app",
-    github: "https://github.com/RounakSharma19/Voot-Clone/tree/master",
-    webapp: "https://github.com/RounakSharma19/Voot-Clone/tree/master",
+    github: "https://github.com/RounakSharma19/Tic-tac-toe",
+    webapp: "https://dev-tictac-toe-game.netlify.app/",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -326,7 +321,7 @@ export const projects = [
     webapp: "https://github.com/RounakSharma19/Login-signup-app/tree/master",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -347,7 +342,7 @@ export const projects = [
     webapp: "https://github.com/RounakSharma19/employee-management-system",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -368,7 +363,7 @@ export const projects = [
     webapp: "https://github.com/RounakSharma19/employee-management-system",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -396,7 +391,7 @@ export const projects = [
     webapp: "https://travel-advisior-app.netlify.app/",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -417,7 +412,7 @@ export const projects = [
     webapp: "https://github.com/RounakSharma19/employee-management-system",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
@@ -438,7 +433,7 @@ export const projects = [
     webapp: "https://github.com/RounakSharma19/employee-management-system",
     member: [
       {
-        name: "Rounak Sharma",
+        name: "Rounak Sharrma",
         img: "https://avatars.githubusercontent.com/u/85124554?v=4",
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",

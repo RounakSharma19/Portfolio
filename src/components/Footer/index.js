@@ -86,7 +86,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rounak Sharma</Logo>
+        <Logo>Rounak Sharrma</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -105,7 +105,7 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rounak Sharma. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Rounak Sharrma. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
