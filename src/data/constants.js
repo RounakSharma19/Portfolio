@@ -11,6 +11,7 @@ export const Bio = {
   github: "https://github.com/RounakSharma19",
   resume:
     "https://drive.google.com/file/d/1Wjg0zWC-d5Z7DKFxkqFAIrhhk1fPkEC8/view?usp=drive_link",
+  x: "https://twitter.com/Rounak_Sharrma",
   linkedin: "https://www.linkedin.com/in/rounak--sharma/",
   insta: "https://www.instagram.com/_rounak._sharrma/",
 };
@@ -269,8 +270,7 @@ export const projects = [
     date: "Jun 2021 - Jul 2021",
     description:
       "A weather app is a digital application designed to provide users with up-to-date and accurate information about current and forecasted weather conditions.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    image: "",
     tags: ["Handlebars", "JavaScript", "CSS"],
     category: "web app",
     github: "https://github.com/RounakSharma19/WeatherApp",
@@ -282,7 +282,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
 
@@ -294,7 +293,13 @@ export const projects = [
       " A Voot clone made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and navigate to those particular page. It has a upload component were you can upload videos. It has a search bar where users can search for a particular task.",
     image:
       "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "Firebase", "Moment", "react-responsive-carousel"],
+    tags: [
+      "React Js",
+      "Local Storage",
+      "Firebase",
+      "Moment",
+      "react-responsive-carousel",
+    ],
     category: "web app",
     github: "https://github.com/RounakSharma19/Voot-Clone/tree/master",
     webapp: "https://github.com/RounakSharma19/Voot-Clone/tree/master",
@@ -305,7 +310,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
   {
@@ -327,7 +331,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
   {
@@ -337,7 +340,7 @@ export const projects = [
     description:
       "Introducing the Employee Management System, a comprehensive solution to streamline and optimize your workforce operations. Designed with efficiency and user-friendliness in mind, our system empowers businesses of all sizes to manage their human resources with precision.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://github.com/RounakSharma19/employee-management-system/assets/85124554/95b8d58b-1de1-4e34-93df-217034ad85c5",
     tags: ["React Js", "JavaScript", "Tailwind CSS", "HTML"],
     category: "web app",
     github: "https://github.com/RounakSharma19/employee-management-system",
@@ -349,7 +352,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
   {
@@ -371,7 +373,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
   {
@@ -382,7 +383,14 @@ export const projects = [
       "The Travel Advisor App! Whether you're a globe-trotter or planning your first adventure, this app is designed to make your travel experience seamless, enjoyable, and unforgettable.",
     image:
       "https://github.com/RounakSharma19/Travel-advisor/assets/85124554/de085966-5e7d-4cc1-bc56-6d6124285975",
-    tags: ["React Js", "JavaScript", "Material UI", "HTML","Axios", "Google-map-react"],
+    tags: [
+      "React Js",
+      "JavaScript",
+      "Material UI",
+      "HTML",
+      "Axios",
+      "Google-map-react",
+    ],
     category: "web app",
     github: "https://github.com/RounakSharma19/Travel-advisor",
     webapp: "https://travel-advisior-app.netlify.app/",
@@ -393,7 +401,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
   {
@@ -404,7 +411,7 @@ export const projects = [
       "Introducing the Temperature Converter, your go-to application for effortlessly converting temperatures between Celsius, Fahrenheit, and Kelvin",
     image:
       "https://github.com/RounakSharma19/Temperature-Converter/assets/85124554/6441c59c-684b-410b-a3c2-d1057ce58e74",
-    tags: ["React Js", "JavaScript","HTML"],
+    tags: ["React Js", "JavaScript", "HTML"],
     category: "web app",
     github: "https://github.com/RounakSharma19/employee-management-system",
     webapp: "https://github.com/RounakSharma19/employee-management-system",
@@ -415,7 +422,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
   {
@@ -426,7 +432,7 @@ export const projects = [
       "Welcome to News Hub, your all-in-one destination for staying informed, engaged, and connected with the world. This feature-rich news app is designed to deliver breaking news, in-depth articles, and personalized content to cater to your interests, ensuring you're always up-to-date on the latest happenings",
     image:
       "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "JavaScript","HTML"],
+    tags: ["React Js", "JavaScript", "HTML"],
     category: "web app",
     github: "https://github.com/RounakSharma19/employee-management-system",
     webapp: "https://github.com/RounakSharma19/employee-management-system",
@@ -437,7 +443,6 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/rounak--sharma/",
         github: "https://github.com/RounakSharma19",
       },
-     
     ],
   },
 ];

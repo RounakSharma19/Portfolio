@@ -77,7 +77,8 @@ const ContactTitle = styled.div`
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid
+    ${({ theme, error }) => (error ? "red" : theme.text_secondary)};
   outline: none;
   font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
@@ -91,7 +92,8 @@ const ContactInput = styled.input`
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid
+    ${({ theme, error }) => (error ? "red" : theme.text_secondary)};
   outline: none;
   font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
@@ -133,26 +135,61 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   const [open, setOpen] = useState(false);
+  const [errors, setErrors] = useState({});
   const form = useRef();
+
+  const validateForm = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    const email = form.current.from_email.value;
+    const name = form.current.from_name.value;
+    const subject = form.current.subject.value;
+    const message = form.current.message.value;
+
+    const newErrors = {};
+
+    if (!email || !emailRegex.test(email)) {
+      newErrors.from_email = "Please enter a valid email address.";
+    }
+
+    if (!name) {
+      newErrors.from_name = "Please enter your name.";
+    }
+
+    if (!subject) {
+      newErrors.subject = "Please enter a subject.";
+    }
+
+    if (!message) {
+      newErrors.message = "Please enter a message.";
+    }
+
+    setErrors(newErrors);
+
+    return Object.keys(newErrors).length === 0;
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_kngavmm",
-        "template_m1sryfn",
-        form.current,
-        "ydVfuqe0et2Lw-a5I"
-      )
-      .then(
-        (result) => {
-          setOpen(true);
-          form.current.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+
+    if (validateForm()) {
+      emailjs
+        .sendForm(
+          "service_kngavmm",
+          "template_m1sryfn",
+          form.current,
+          "ydVfuqe0et2Lw-a5I"
+        )
+        .then(
+          (result) => {
+            setOpen(true);
+            form.current.reset();
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
 
   return (
@@ -164,10 +201,27 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput
+            placeholder="Your Email"
+            name="from_email"
+            error={errors.from_email}
+          />
+          <ContactInput
+            placeholder="Your Name"
+            name="from_name"
+            error={errors.from_name}
+          />
+          <ContactInput
+            placeholder="Subject"
+            name="subject"
+            error={errors.subject}
+          />
+          <ContactInputMessage
+            placeholder="Message"
+            rows="4"
+            name="message"
+            error={errors.message}
+          />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
