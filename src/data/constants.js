@@ -275,7 +275,7 @@ export const projects = [
     tags: ["Handlebars", "NodeJS", "ExpressJS", "JavaScript", "CSS"],
     category: "web app",
     github: "https://github.com/RounakSharma19/WeatherApp",
-    webapp: "https://github.com/RounakSharma19/WeatherApp",
+    webapp: "https://weather-app-fcs1.onrender.com",
     member: [
       {
         name: "Rounak Sharrma",
@@ -339,7 +339,7 @@ export const projects = [
     tags: ["React Js", "JavaScript", "Tailwind CSS", "HTML"],
     category: "web app",
     github: "https://github.com/RounakSharma19/employee-management-system",
-    webapp: "https://github.com/RounakSharma19/employee-management-system",
+    webapp: "https://dev-employee-management-system.netlify.app/",
     member: [
       {
         name: "Rounak Sharrma",
