@@ -10,7 +10,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, constantly seeking fresh opportunities to overcome.  I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am prepared to make a meaningful contribution and achieve great things.",
   github: "https://github.com/RounakSharma19",
   resume:
-    "https://drive.google.com/file/d/1_qKyCbTZnneuKu1GfUlJG6licsS3XoKs/view?usp=drive_link",
+    "https://drive.google.com/file/d/1yQX74ImoP-WetuoH1BC5S6wEtDKMEo4z/view?usp=drive_link",
   x: "https://twitter.com/Rounak_Sharrma",
   linkedin: "https://www.linkedin.com/in/rounak--sharma/",
   insta: "https://www.instagram.com/_rounak._sharrma/",
