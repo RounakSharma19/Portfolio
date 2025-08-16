@@ -49,7 +49,7 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={isUndefinedOrNull(HeroImg)} alt="hero-image" />
+         <Img src={HeroImg} alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
